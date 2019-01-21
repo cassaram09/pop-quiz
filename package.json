@@ -16,7 +16,7 @@
     "build": "NODE_PATH=src/ react-scripts build",
     "test": "NODE_PATH=src/ react-scripts test",
     "eject": "NODE_PATH=src/ react-scripts eject",
-    "start-sw": "http-server ./build"
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
