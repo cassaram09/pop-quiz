@@ -4,7 +4,14 @@ import PropTypes from 'prop-types'
 import { Question } from 'questions/question'
 
 class QuestionList extends Component {
-  renderQuestions = () => this.props.list.map(q => <Question key={q.id} question={q} />)
+  renderQuestions = () => this.props.list.map(q => (
+    <Question 
+      key={q.id}
+      answer={q.answer}
+      question={q.question}
+      type={q.type}
+    />
+  ))
 
   render() {
     return (

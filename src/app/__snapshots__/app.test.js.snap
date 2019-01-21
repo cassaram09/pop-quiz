@@ -24,16 +24,10 @@ ShallowWrapper {
           list={
             Array [
               Object {
-                "answer": 0,
+                "answer": "Not enough!",
                 "id": 1,
-                "multiChoice": Array [
-                  "12 logs",
-                  "1 branch",
-                  "Not as much as a beaver",
-                  "Woodchucks can't chuck wood, silly!",
-                ],
                 "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-                "type": "multiChoice",
+                "type": "shortText",
               },
               Object {
                 "answer": "Enough to break the ice.",
@@ -63,16 +57,10 @@ ShallowWrapper {
           list={
             Array [
               Object {
-                "answer": 0,
+                "answer": "Not enough!",
                 "id": 1,
-                "multiChoice": Array [
-                  "12 logs",
-                  "1 branch",
-                  "Not as much as a beaver",
-                  "Woodchucks can't chuck wood, silly!",
-                ],
                 "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-                "type": "multiChoice",
+                "type": "shortText",
               },
               Object {
                 "answer": "Enough to break the ice.",
@@ -99,16 +87,10 @@ ShallowWrapper {
         "props": Object {
           "list": Array [
             Object {
-              "answer": 0,
+              "answer": "Not enough!",
               "id": 1,
-              "multiChoice": Array [
-                "12 logs",
-                "1 branch",
-                "Not as much as a beaver",
-                "Woodchucks can't chuck wood, silly!",
-              ],
               "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-              "type": "multiChoice",
+              "type": "shortText",
             },
             Object {
               "answer": "Enough to break the ice.",
@@ -145,16 +127,10 @@ ShallowWrapper {
             list={
               Array [
                 Object {
-                  "answer": 0,
+                  "answer": "Not enough!",
                   "id": 1,
-                  "multiChoice": Array [
-                    "12 logs",
-                    "1 branch",
-                    "Not as much as a beaver",
-                    "Woodchucks can't chuck wood, silly!",
-                  ],
                   "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-                  "type": "multiChoice",
+                  "type": "shortText",
                 },
                 Object {
                   "answer": "Enough to break the ice.",
@@ -184,16 +160,10 @@ ShallowWrapper {
             list={
               Array [
                 Object {
-                  "answer": 0,
+                  "answer": "Not enough!",
                   "id": 1,
-                  "multiChoice": Array [
-                    "12 logs",
-                    "1 branch",
-                    "Not as much as a beaver",
-                    "Woodchucks can't chuck wood, silly!",
-                  ],
                   "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-                  "type": "multiChoice",
+                  "type": "shortText",
                 },
                 Object {
                   "answer": "Enough to break the ice.",
@@ -220,16 +190,10 @@ ShallowWrapper {
           "props": Object {
             "list": Array [
               Object {
-                "answer": 0,
+                "answer": "Not enough!",
                 "id": 1,
-                "multiChoice": Array [
-                  "12 logs",
-                  "1 branch",
-                  "Not as much as a beaver",
-                  "Woodchucks can't chuck wood, silly!",
-                ],
                 "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-                "type": "multiChoice",
+                "type": "shortText",
               },
               Object {
                 "answer": "Enough to break the ice.",
