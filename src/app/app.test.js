@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Enzyme, { shallow, render, mount } from 'utils/enzyme';
 
 import { App } from 'app';
-import { QuestionList } from 'questions';
+import { QuestionList } from 'questions/questionList';
 
 describe('App', () => {
   it('renders without crashing', () => {
@@ -15,6 +15,6 @@ describe('App', () => {
   it('renders the Questions component', () => {
     const app = shallow(<App />);
 
-    expect(app.containsMatchingElement(<QuestionList />)).toBeTruthy()
+    expect(app.find('QuestionList').length).toEqual(1);
   });
 });

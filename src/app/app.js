@@ -4,7 +4,7 @@ import './app.scss';
 
 import DATA from 'utils/mockData'
 
-import { QuestionList } from 'questions'
+import { QuestionList } from 'questions/questionList'
 
 class App extends Component {
   render() {

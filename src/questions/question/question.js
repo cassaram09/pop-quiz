@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// import './question.scss';
-
 import { Notification } from 'common/notification'
 
 class Question extends Component {
