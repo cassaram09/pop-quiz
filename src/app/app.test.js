@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Enzyme, { shallow, render, mount } from 'utils/enzyme';
 
-import App from './app';
+import { App } from 'app';
+import { QuestionList } from 'questions';
 
 describe('App', () => {
   it('renders without crashing', () => {
@@ -11,10 +12,9 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  it('has the correct text', () => {
-    const app = render(<App />);
-    const p = app.find('p'); 
-    
-    expect(p.text()).toBe('Edit src/App.js and save to reload.'); // fails,
+  it('renders the Questions component', () => {
+    const app = shallow(<App />);
+
+    expect(app.containsMatchingElement(<QuestionList />)).toBeTruthy()
   });
 });

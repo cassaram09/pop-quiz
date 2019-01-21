@@ -17,14 +17,41 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <p>
-        Edit 
-        <code>
-          src/App.js
-        </code>
-         and save to reload.
-      </p>,
-      "className": "App",
+      "children": <div
+        className="container"
+      >
+        <QuestionList
+          list={
+            Array [
+              Object {
+                "answer": 0,
+                "id": 1,
+                "multiChoice": Array [
+                  "12 logs",
+                  "1 branch",
+                  "Not as much as a beaver",
+                  "Woodchucks can't chuck wood, silly!",
+                ],
+                "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+                "type": "multiChoice",
+              },
+              Object {
+                "answer": "Enough to break the ice.",
+                "id": 2,
+                "question": "How much does an elephant weigh?",
+                "type": "shortText",
+              },
+              Object {
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "id": 3,
+                "question": "Explain critical theory.",
+                "type": "longText",
+              },
+            ]
+          }
+        />
+      </div>,
+      "className": "app",
     },
     "ref": null,
     "rendered": Object {
@@ -32,31 +59,76 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          "Edit ",
-          <code>
-            src/App.js
-          </code>,
-          " and save to reload.",
-        ],
+        "children": <QuestionList
+          list={
+            Array [
+              Object {
+                "answer": 0,
+                "id": 1,
+                "multiChoice": Array [
+                  "12 logs",
+                  "1 branch",
+                  "Not as much as a beaver",
+                  "Woodchucks can't chuck wood, silly!",
+                ],
+                "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+                "type": "multiChoice",
+              },
+              Object {
+                "answer": "Enough to break the ice.",
+                "id": 2,
+                "question": "How much does an elephant weigh?",
+                "type": "shortText",
+              },
+              Object {
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "id": 3,
+                "question": "Explain critical theory.",
+                "type": "longText",
+              },
+            ]
+          }
+        />,
+        "className": "container",
       },
       "ref": null,
-      "rendered": Array [
-        "Edit ",
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "src/App.js",
-          },
-          "ref": null,
-          "rendered": "src/App.js",
-          "type": "code",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "list": Array [
+            Object {
+              "answer": 0,
+              "id": 1,
+              "multiChoice": Array [
+                "12 logs",
+                "1 branch",
+                "Not as much as a beaver",
+                "Woodchucks can't chuck wood, silly!",
+              ],
+              "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+              "type": "multiChoice",
+            },
+            Object {
+              "answer": "Enough to break the ice.",
+              "id": 2,
+              "question": "How much does an elephant weigh?",
+              "type": "shortText",
+            },
+            Object {
+              "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+              "id": 3,
+              "question": "Explain critical theory.",
+              "type": "longText",
+            },
+          ],
         },
-        " and save to reload.",
-      ],
-      "type": "p",
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
     },
     "type": "div",
   },
@@ -66,14 +138,41 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <p>
-          Edit 
-          <code>
-            src/App.js
-          </code>
-           and save to reload.
-        </p>,
-        "className": "App",
+        "children": <div
+          className="container"
+        >
+          <QuestionList
+            list={
+              Array [
+                Object {
+                  "answer": 0,
+                  "id": 1,
+                  "multiChoice": Array [
+                    "12 logs",
+                    "1 branch",
+                    "Not as much as a beaver",
+                    "Woodchucks can't chuck wood, silly!",
+                  ],
+                  "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+                  "type": "multiChoice",
+                },
+                Object {
+                  "answer": "Enough to break the ice.",
+                  "id": 2,
+                  "question": "How much does an elephant weigh?",
+                  "type": "shortText",
+                },
+                Object {
+                  "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "id": 3,
+                  "question": "Explain critical theory.",
+                  "type": "longText",
+                },
+              ]
+            }
+          />
+        </div>,
+        "className": "app",
       },
       "ref": null,
       "rendered": Object {
@@ -81,31 +180,76 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "Edit ",
-            <code>
-              src/App.js
-            </code>,
-            " and save to reload.",
-          ],
+          "children": <QuestionList
+            list={
+              Array [
+                Object {
+                  "answer": 0,
+                  "id": 1,
+                  "multiChoice": Array [
+                    "12 logs",
+                    "1 branch",
+                    "Not as much as a beaver",
+                    "Woodchucks can't chuck wood, silly!",
+                  ],
+                  "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+                  "type": "multiChoice",
+                },
+                Object {
+                  "answer": "Enough to break the ice.",
+                  "id": 2,
+                  "question": "How much does an elephant weigh?",
+                  "type": "shortText",
+                },
+                Object {
+                  "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                  "id": 3,
+                  "question": "Explain critical theory.",
+                  "type": "longText",
+                },
+              ]
+            }
+          />,
+          "className": "container",
         },
         "ref": null,
-        "rendered": Array [
-          "Edit ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "src/App.js",
-            },
-            "ref": null,
-            "rendered": "src/App.js",
-            "type": "code",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "list": Array [
+              Object {
+                "answer": 0,
+                "id": 1,
+                "multiChoice": Array [
+                  "12 logs",
+                  "1 branch",
+                  "Not as much as a beaver",
+                  "Woodchucks can't chuck wood, silly!",
+                ],
+                "question": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
+                "type": "multiChoice",
+              },
+              Object {
+                "answer": "Enough to break the ice.",
+                "id": 2,
+                "question": "How much does an elephant weigh?",
+                "type": "shortText",
+              },
+              Object {
+                "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "id": 3,
+                "question": "Explain critical theory.",
+                "type": "longText",
+              },
+            ],
           },
-          " and save to reload.",
-        ],
-        "type": "p",
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
       },
       "type": "div",
     },

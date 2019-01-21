@@ -4,16 +4,16 @@ import React, { Component } from 'react';
 
 import { Question } from './'
 
-class Questions extends Component {
+class QuestionList extends Component {
   renderQuestions = data => data.map(d => <Question question={d} />)
 
   render() {
     return (
       <div className="questions">
-        {this.renderQuestions(this.props.questionList)}
+        {this.renderQuestions(this.props.list)}
       </div>
     );
   }
 }
 
-export default Questions;
+export default QuestionList;

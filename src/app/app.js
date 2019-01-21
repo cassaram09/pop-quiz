@@ -4,15 +4,14 @@ import './app.scss';
 
 import DATA from 'utils/mockData'
 
-import { Questions } from 'questions'
+import { QuestionList } from 'questions'
 
 class App extends Component {
   render() {
     return (
       <div className="app">
         <div className="container">
-        
-          <Questions questionList={DATA} />
+          <QuestionList list={DATA} />
         </div>
       </div>
     );
