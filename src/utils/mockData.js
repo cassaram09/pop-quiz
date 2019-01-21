@@ -2,14 +2,8 @@ const DATA = [
   {
     id: 1,
     question: 'How much wood could a woodchuck chuck if a woodchuck could chuck wood?',
-    multiChoice: [
-      "12 logs",
-      "1 branch",
-      "Not as much as a beaver",
-      "Woodchucks can't chuck wood, silly!"
-    ],
-    type: "multiChoice",
-    answer: 0
+    type: "shortText",
+    answer: "Not enough!"
   },
   {
     id: 2,
